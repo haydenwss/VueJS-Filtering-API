@@ -1,0 +1,20 @@
+.fixed--button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+}
+
+.fixed--button--scroll--top {
+    position: fixed;
+    bottom: 100px;
+    right: 30px; 
+}
+
+// button position upon resize
+// *-------------------------*
+
+@media screen and (min-width:1000px) {
+    .fixed--button, .fixed--button--scroll--top {
+        right: 200px;
+    }
+}
